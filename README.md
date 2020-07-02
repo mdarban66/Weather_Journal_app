@@ -1,5 +1,5 @@
 # Weather Journal App
-A Udacity Web app project
+A Udacity Web app project (https://github.com/udacity/fend/tree/refresh-2019)
 
 ## Overview
 Weather journal app is an asynchronous web app that employs Web API and data entered by the user to update the User Interface for a weather journal app in a dynamic way. 
