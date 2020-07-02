@@ -10,4 +10,5 @@ The weather journbal app can be run by following these steps:
 2. npm install
 3. npm run start
 4. Enter http://localhost:8000 in the address bar of your browser
+5. Enter the zip code of the target place and your feeling and press Generate button to see the temprature results.
    
