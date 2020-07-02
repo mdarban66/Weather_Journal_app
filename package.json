@@ -1,0 +1,25 @@
+{
+  "name": "weather-journal-package",
+  "version": "1.0.0",
+  "description": "package.json for weather-journal-app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdarban66/Weather_Journal_app.git"
+  },
+  "author": "Mona Assarandarban mona.assaran@gmail.com https://monadarban.blog/",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdarban66/Weather_Journal_app/issues"
+  },
+  "homepage": "https://github.com/mdarban66/Weather_Journal_app#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}

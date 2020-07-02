@@ -1,0 +1,128 @@
+body {
+    background: #fffff8;
+    font-family: 'Times New Roman', sans-serif, -apple-system, BlinkMacSystemFont;
+}
+
+#app {
+    display: grid;
+    grid-auto-rows: minmax(50px, auto);
+    /* grid-template-columns:  */
+    /* grid-template-areas: "hd hd hd" "zip zip zip" "feel feel feel" "ent ent ent"; */
+    height: 100vh;
+    background: #f3d6dc;
+    color: #58393c;
+    justify-content: center;
+    grid-gap: 1em;
+    font-size: 20px;
+    font-family: 'Times New Roman', sans-serif, 'Oswald';
+}
+
+.holder {
+    margin: 10px;
+}
+
+.entry {
+    background: rgba(104, 118, 148, 0.4);
+    padding-left: 10px;
+}
+
+#entryHolder {
+    /* grid-area: ent; */
+}
+
+#date {}
+
+#temp {}
+
+#content {}
+
+.headline {
+    /* grid-area: hd; */
+}
+
+.title {}
+
+.zip {
+    /* grid-area: zip; */
+}
+
+.feel {
+    /* grid-area: feel; */
+}
+
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+
+label {
+    display: block;
+    font-size: 27px;
+}
+
+input {
+    display: block;
+    height: 60px;
+    width: 320px;
+    background: #4c707a;
+    color: #f0d43a;
+    font-size: 20px;
+    font-family: 'Times New Roman', sans-serif, 'Oswald';
+    border: none;
+}
+
+label {
+    font-size: smaller;
+    color: #444;
+}
+
+button {
+    width: 400px;
+    height: 50px;
+    background: #3b4a6b;
+    color: #f0d43a;
+    font-size: 26px;
+    font-family: 'Times New Roman', sans-serif, 'Oswald';
+    border: none;
+    box-shadow: 2px 4px 5px #444;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+textarea {
+    background: #4c707a;
+    color: #f5de60;
+    font-size: 20px;
+    font-family: 'Times New Roman', sans-serif, 'Oswald';
+}
+
+
+/* Reset style for HTML element on active to have no border*/
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+
+/* Style for Placeholder Text*/
+
+::placeholder {
+    /* Firefox, Chrome, Opera */
+    color: #f0d43a;
+    font-family: 'Times New Roman', sans-serif, 'Oswald';
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #f5de60;
+    font-family: 'Times New Roman', sans-serif, 'Oswald';
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #f0d43a;
+    font-family: 'Times New Roman', sans-serif, 'Oswald';
+}
