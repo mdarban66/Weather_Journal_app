@@ -8,6 +8,6 @@ Weather journal app is an asynchronous web app that employs Web API and data ent
 The weather journbal app can be run by following these steps:
 1. Redirect to the root of the project's folder
 2. npm install
-3. node server.js
+3. npm run start
 4. Enter http://localhost:8000 in the address bar of your browser
    
